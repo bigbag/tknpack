@@ -59,12 +59,12 @@ pip install tknpack
 uv add tknpack
 
 # With pydantic-ai support (optional)
-pip install tknpack[ai]
+pip install 'tknpack[ai]'
 # or
-uv add tknpack[ai]
+uv add 'tknpack[ai]'
 ```
 
-The `ai` extra installs `pydantic-ai>=2.0`, required for the `TokenPackModel` wrapper.
+The `ai` extra installs `pydantic-ai>=1.0`, required for the `TokenPackModel` wrapper.
 
 ## Usage
 
